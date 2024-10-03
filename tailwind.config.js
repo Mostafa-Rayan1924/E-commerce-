@@ -8,10 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#007dfc",
+      },
+      container: {
+        center: "true",
+        padding: "2rem",
+        screens: {
+          lg: "1124px",
+          xl: "1124px",
+          "2xl": "1124px",
+        },
       },
     },
   },
+  // darkMode: "class",
   plugins: [],
 };
